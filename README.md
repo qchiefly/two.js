@@ -1,17 +1,19 @@
 <h1 id="masthead" style="display: block; width: 285px; height: 80px; background: url(http://jonobr1.github.io/two.js/images/logo.gif) center center no-repeat; overflow: hidden; text-indent: -9999px;">two.js</h1>
 
-A two-dimensional drawing api meant for modern browsers. It is renderer agnostic enabling the same api to render in multiple contexts: webgl, canvas2d, and svg.
+> A two-dimensional drawing api meant for modern browsers. It is renderer agnostic enabling the same api to render in multiple contexts: webgl, canvas2d, and svg.
 
-[Home](http://jonobr1.github.com/two.js) • [Examples](http://jonobr1.github.com/two.js/#examples) • [Documentation](http://jonobr1.github.com/two.js/#documentation) • [Help](http://stackoverflow.com/questions/tagged/two.js)
+一个二维的绘图 API，用于现代 Web 浏览器，可基于不同上下文绘制，包括 webgl、canvas 和 svg。
 
-## Usage
-Download the [minified library](https://raw.github.com/jonobr1/two.js/master/build/two.min.js) and include it in your html. Alternatively see [how to build the library yourself](https://github.com/jonobr1/two.js#custom-build).
+[主页](http://jonobr1.github.com/two.js) • [例子](http://jonobr1.github.com/two.js/#examples) • [文档](http://jonobr1.github.com/two.js/#documentation) • [帮助](http://stackoverflow.com/questions/tagged/two.js)
+
+## 用法
+下载 [minified library](https://raw.github.com/jonobr1/two.js/master/build/two.min.js) 并引入到你的HTML. 或者查看 [how to build the library yourself](https://github.com/jonobr1/two.js#custom-build).
 
 ```html
 <script src="js/two.min.js"></script>
 ```
 
-Here is boilerplate html in order to draw a spinning rectangle in two.js:
+下面是用two.js实现旋转矩形的一个HTML样例:
 
 ```html
 <!doctype html>

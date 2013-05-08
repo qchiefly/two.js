@@ -36,19 +36,19 @@
 </html>
 ```
 
-## Custom Build
-Two.js uses [nodejs](http://nodejs.org/) in order to build source files. You'll first want to install that. Next you'll want to install [node-minify](https://npmjs.org/package/node-minify):
+## 自定义安装
+Two.js 应用于 [nodejs](http://nodejs.org/) 所需源文件. 第一步你将安装nodejs. 接着安装 [node-minify](https://npmjs.org/package/node-minify):
 
 ```
 cd two.js/utils
 npm install node-minify
 ```
 
-Then open up `./utils/build.js` in the text editor of your choice. You'll see an array at the top called `files`. This is the list and order of source files that get compiled to the built source. Feel free to add, subtract, or modify based on your needs.
+接着用文本方式打开 `./utils/build.js` . 在头部有个叫 `files`的数组. 这是需要编译到安装源的源文件序列. 根据你自己的需求进行增删改.
 
-If you're making an application and you're only using one renderer (i.e: svg context) then it is highly recommended to remove canvas and webgl renderers from your build in order to drastically decrease your file size.
+若你开发应用并只使用一种渲染方式（如：svg）,则强烈建议从你的安装中去除canvas和webgl渲染器以大大的减少文件数量.
 
-Finally, build the project:
+最后，创建它:
 
 ```
 cd two.js/utils
@@ -58,7 +58,7 @@ node build
 ## Change Log
 
 2013 05 01 [v0.2.0](https://github.com/jonobr1/two.js/tree/v0.2.0)
-+ First alpha release
++ 第一个 alpha 版
 
 Jan 29, 2013 [v0.1.0-alpha](https://github.com/jonobr1/two.js/tree/v0.1.0-alpha)
-+ Proof of Concept built from Three.js
++ 理念来自 Three.js
